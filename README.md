@@ -9,7 +9,7 @@ Here, we extract full CDS from _de novo_ assembly of 17 mouse strains and transf
 
 1. Preparation
 
-Install YASS and YOLOv10, refer to the official documentation of the tools used.
+Install YASS https://github.com/laurentnoe/yass and YOLOv10 https://github.com/THU-MIG/yolov10, refer to the official documentation of the tools used.
 Whole genome CDS are extracted with Subread Gffread https://subread.sourceforge.net/
 
 2. Generating PNG Dot Plots
