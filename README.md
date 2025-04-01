@@ -38,3 +38,11 @@ Use the pre-trained weights for object detection
  **Usage**:
 
    python clean_rectangle.py--input_file {Path_to_Detection_Results_File} --output_file {Path_to_Output_Filtered_File} --min_ratio 0.9 --max_ratio 1.1
+
+## An Example with GRCm39 v.s. PWK/PhJ
+
+1. Mus_musculus.GRCm39.cds.all_SymbolOnly.fa and PWK3.5_S.fa in /dataset using the `CreatePNG.sh` script to batch-generate PNG-format dot plots as raw data.
+ 
+2. Labeled using `labelimg` for YOLO detection training and validation, located at `/dataset/yolov_set`.
+
+3. Pre-trained Weights located at `/dataset/best.pt`, with Yolov10s Model and Pytorch 2.1 framework.
