@@ -41,7 +41,7 @@ Use the pre-trained weights for object detection
 
 ## An Example with GRCm39 v.s. PWK/PhJ
 
-1. Mus_musculus.GRCm39.cds.all_SymbolOnly.fa and PWK3.5_S.fa in /dataset using the `CreatePNG.sh` script to batch-generate PNG-format dot plots as raw data.
+1. Mus_musculus.GRCm39.cds.all_SymbolOnly.fa and PWK3.5_S.fa in /dataset using the `CreatePNG/CreatePNG.sh` script to batch-generate PNG-format dot plots as raw data.
  
 2. Labeled using `labelimg` for YOLO detection training and validation, located at `/dataset/yolov_set`.
 
